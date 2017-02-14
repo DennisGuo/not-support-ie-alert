@@ -1,0 +1,26 @@
+{
+  "name": "not-support-ie-alert",
+  "version": "1.0.0",
+  "description": "A service which detect the browser , and show the not support IE alert.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DennisGuo/not-support-ie-alert.git"
+  },
+  "keywords": [
+    "not-support-ie"
+  ],
+  "author": "guohengxi.dennis@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DennisGuo/not-support-ie-alert/issues"
+  },
+  "homepage": "https://github.com/DennisGuo/not-support-ie-alert#readme",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "express": "^4.14.1"
+  }
+}
