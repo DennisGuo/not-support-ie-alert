@@ -14,7 +14,9 @@
     top: 0;
     left: 0;
     background-color: #000;
+    opacity:.8;
     filter: alpha(opacity:80);
+    
     
 }
 
@@ -41,7 +43,9 @@
     margin-left: -300px;
     border: 1px solid #f00;
     background-color: #000;
+    opacity:.8;
     filter: alpha(opacity:80);
+    
 }
 .nsie-alert a{
     color:#fff;
