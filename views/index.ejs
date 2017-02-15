@@ -15,6 +15,7 @@
       <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="//<%=host%>/api/10"></script>
 </head>
 </head>
 
@@ -38,7 +39,40 @@
     <div class="container" style="padding-top:50px">
         <div class="starter-template text-center">
             <h1>Welcome to Not Support IE Alert!</h1>
-            <p class="lead">This is A service which detect the browser , and show the not support IE alert. .</p>
+            <p class="lead">This is A service which detect the browser , and show the not support IE alert.</p>
+        </div>
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h4>How to use ?</h4>
+            </div>
+            <div class="panel-body">
+                <p><b>Step 1 : </b> Add the service link to the <code>html>head</code> as a script src.</p>
+                <p><code>&lt;script src="http://<%=host%>/api/{version}/{description}"&gt;&lt;/script&gt;</code></p>
+                <p>There are 2 param you should know: </p>
+                <p>
+                    <ol>
+                        <li><b><code>version</code></b> : The IE version that you don't want to supported.  eg: <code>5</code>
+                        <code>6</code>
+                        <code>7</code>
+                        <code>8</code>
+                        <code>9</code></li>
+                        <li><b><code>description (optional)</code></b> : The infomation that you want to tell the visitor which should encode with <code>encodeURL()</code>. eg: <code>we%20are%20sorry.</code></li>
+                    </ol>
+                </p>
+                <p><b>Step 2 : </b> That's all , what a happy life ^_^ .</p>
+                <hr>
+                <p><b>Demo : </b> Refresh this page in IE browser to see the alert .</p>
+                <p><code>&lt;script src="//<%=host%>/api/10"&gt;&lt;/script&gt;</code></p>
+            </div>
+        </div>
+
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h4>The screen shoot!</h4>
+            </div>
+            <div class="panel-body text-center">
+                <img src="http://i1.piimg.com/567571/0cdf5abf91e58a98.png"/>
+            </div>
         </div>
     </div>
     <!-- /.container -->

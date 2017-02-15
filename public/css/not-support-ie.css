@@ -1,0 +1,102 @@
+.nsie-overflow {
+    /*div.style.position = "fixed";
+    div.style.zIndex = "998";
+    div.style.width = "100%";
+    div.style.height = "100%";
+    div.style.top = "0";
+    div.style.left = "0";
+    div.style.filter = "alpha(opacity:80)";
+    div.style.backgroundColor = "black";*/
+    position: fixed;
+    z-index: 998;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    filter: alpha(opacity:80);
+    
+}
+
+.nsie-alert {
+    /*div.style.position = "fixed";
+    div.style.zIndex = "999";
+    div.style.width = "600px";
+    div.style.height = "200px";
+    div.style.top = "50%";
+    div.style.left = "50%";
+    div.style.marginTop = "-100px";
+    div.style.marginLeft = "-300px";
+    div.style.border = "1px solid red";
+    div.style.filter = "alpha(opacity:80)";
+    div.style.backgroundColor = "black";
+    div.style.backgroundColor = "black";*/
+    position: fixed;
+    padding:10px;
+    z-index: 999;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -300px;
+    border: 1px solid #f00;
+    background-color: #000;
+    filter: alpha(opacity:80);
+}
+.nsie-alert a{
+    color:#fff;
+}
+.nsie-alert h2 {
+    /*h.style.color = "#fff";
+        h.style.fontSize = "18px";
+        h.style.textAlign = "center";*/
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.nsie-alert p {
+    /*p.style.fontSize = "14px";
+        p.style.lineHeight = "20px";
+        p.style.textAlign = "center";*/
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.nsie-alert p.nsie-info {
+    color: #ff0;
+    font-size: 16px;
+}
+
+.nsie-alert ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nsie-alert ul li{
+    float:left;
+    text-align: center;
+    display: inline-block;
+    width:25%;
+}
+.nsie-alert ul li a{
+    padding:10px;
+    display: block;
+    overflow: hidden;
+}
+.nsie-alert ul li a:hover{
+
+    color:#ff0;
+}
+.nsie-alert ul img{
+    width:100px;
+    border:none;
+}
+.nsie-close{
+    position: absolute;
+    top:5px;
+    right:5px;
+    cursor: pointer;
+    color: #f00;
+}
