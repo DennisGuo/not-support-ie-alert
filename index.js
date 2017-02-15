@@ -37,13 +37,14 @@ app.get('/api/:version?/:info?', function (req, res) {
     var index = agent.indexOf('MSIE');
     var isIe = index >= 0;
    
-
+    log(agent);
     var none = false;
 
     if (isIe) {
 
-        var ieVersion = agent.substring(index + 5, index + 6);
+        var ieVersion = agent.substring(index + 5, index + 8);
         var version = req.params.version;
+        
         log('ieversion:'+ieVersion+",paramversion:"+version);
         if (parseInt(ieVersion) <= parseInt(version)) {
             //res.json(header);
