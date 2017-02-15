@@ -63,5 +63,5 @@
         createStylesheet();
         createOverflow();
         createAlert();
-    }, 0)
+    }, 100)
 }())
