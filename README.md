@@ -2,7 +2,6 @@
 
 A service which detect the browser , and show the not support IE alert.
 
-The oneline website : [http://ciyuer.com:7001](http://ciyuer.com:7001)
 
 ## How to use ?
 
@@ -20,7 +19,3 @@ There are 2 param you should know:
 The infomation that you want to tell the visitor which should encode with `encodeURL()`. eg: `we%20are%20sorry.`</li>
 
 **Step 2** : </b> That's all , what a happy life ^_^ .
-
-## Screen shoot
-
-<img src="http://i1.piimg.com/567571/0cdf5abf91e58a98.png"/>
